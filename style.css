@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Encode Sans SC';
+}
+.header {
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-body{
+    background-color: aquamarine;
+    width: 75%;
+    height: 127vh;
+
+}
+.sidelinebox{
+    background:rgba(116, 29, 29, 1);     
+    width: 25%;
+    height: 127vh;
+}
+.logo h1 ,#logo{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    color:rgba(116, 29, 29, 1) ;
+    margin:50px ;
+}
+.nav {
+    position: absolute;
+    width: 920px;
+    height: 42px;
+    left: 584px;
+    top: 51px; 
+}
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 4rem;
+
+}
+.nav li {
+    list-style-type: none;
+
+}
+.nav a{ 
+    color:rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav a:hover {
+    color: rgba(116, 29, 29, 1);  
+    /* animation-duration: 5s; */
+    font-size: 15px;  
+}
+#black:hover {
+    color: rgb(0.16, 0.16, 0.16) ;
+    /* animation-duration: 1s; */
+    font-size: 15px;
+} 
+.desc{
+    width: inherit;
+    margin-left: 72px;
+}
+.desc h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    color:rgba(116, 29, 29, 1) ;
+    padding-top: 180px;
+}
+.desc h2 {
+    line-height: 5.2;
+    color:rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+}
+#bodydesc{
+    color:rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.about-tag {
+    width: 458px;
+    height: 61px;
+    border-radius: 27px;
+    background: rgba(116, 29, 29, 1);
+    position: absolute;
+    text-align: center;   
+    margin-top: 207px;
+    margin-left: -19px;
+    
+}
+.about-tag p{
+    width: 425px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 56px;
+}
+.about {
+    width: 100%;
+    height: 700px;
+    background: rgba(47, 47, 47, 1);
+    display: flex;
+    /* flex-wrap: wrap; */
+
+}
+.pic-part{
+    /* background-color: blue; */
+    width: 45%;
+    height: 700px;
+}
+.pic-part1 {
+    box-sizing: border-box;
+    width: 353px;
+    height: 444px;
+    background: #2F2F2F;
+    border: 14px solid #741D1D;
+    margin-top: 155px;
+    margin-left: 98px;
+}
+.pic-part2 {
+    box-sizing: border-box;
+    position: relative;
+    width: 336px;
+    left: 138px;
+    top: -471px;
+    height: 436px;
+    background: black;
+    border: 1px solid #741D1D;
+}
+.desc-part {
+    /* background-color: blueviolet; */
+    width: 55%;
+    height: 700px;
+
+}
+.desc-part h3{
+    width: 510px;
+    height: 70px;
+    font-family: 'Encode Sans SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 102px;
+    color: #FFFFFF;
+    margin-top: 44px;
+}
+.line {
+    width: 271px;
+    height: 0px;
+    border: 2px solid #741D1D;
+    background:#741D1D ;
+}
+.para{
+    margin-top: 133px;
+}
+
+.para p {
+    width: 620px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center; 
+    color: #FFFFFF;
+}
+.para #p2 {
+    width: 620px;
+    height: 125px;
+    padding-top: 61px;
+    font-family: 'Encode Sans SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 120px;
+}
+#btn1 {
+    box-sizing: border-box;
+    width: 192px;
+    height: 63px;
+    background: #741D1D;
+    border: 1px solid #741D1D;
+    border-radius: 25px;
+    margin-left: 24px;
+}
+#btn1:hover {
+    background: #080808;
+}
+#btn-write {
+    /* width: 89px; */
+    height: 20px;
+    font-family: 'Encode Sans SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#btn2 {
+    box-sizing: border-box;
+    width: 200px;
+    height: 63px;
+    background: #2F2F2F;
+    border: 1px solid #741D1D;
+    border-radius: 25px;
+    margin-left: 122px;
+
+}
+#btn2:hover {
+    background: black;
+    border: 1px solid #741D1D;
+
+}
+#btn-write2 {
+    /* width: 89px; */
+    height: 20px;
+    font-family: 'Encode Sans SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 31px;
+    /* identical to box height */
+    text-align: center;
+    color: #741D1D;
+}
+.info-tag{
+    
+}
