@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Encode Sans SC';
 }
 .header {
@@ -8,6 +9,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    z-index: 9;
 }
 .header-body{
     background-color: aquamarine;
@@ -29,11 +31,14 @@
     margin:50px ;
 }
 .nav {
-    position: absolute;
+    /* position: absolute; */
     width: 920px;
     height: 42px;
     left: 584px;
     top: 51px; 
+    z-index: 999;
+    position: fixed;
+    /* top: 0; */
 }
 .nav ul {
     display: flex;
